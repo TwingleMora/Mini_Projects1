@@ -13,7 +13,8 @@ module LFSR (
     input fb;
     input [7:0] lfsr;
     integer i;
-    
+    reg xx;
+    reg yy;
     begin
      SET_LFSR_COMB[0] =  fb;
       for(i =1  ;  i <= 7  ;  i = i + 1)
